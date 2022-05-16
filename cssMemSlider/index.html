@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,28 +9,36 @@
   <link rel="stylesheet" href="normalize.css">
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-<div class="container">
-  <div class="slider">
-    <div class="slides-wrapper">
-      <div class="slides">
-        <div class="slide slide-active"><img src="./img/1.jpg" alt=""></div>
-        <div class="slide"><img src="./img/2.jpg" alt=""></div>
-        <div class="slide"><img src="./img/3.jpg" alt=""></div>
-        <div class="slide"><img src="./img/4.jpg" alt=""></div>
+  <div class="container">
+    <div class="slider">
+      <div class="slides-wrapper">
+        <input type="radio" name="slider" id="radio1" checked>
+        <input type="radio" name="slider" id="radio2">
+        <input type="radio" name="slider" id="radio3">
+        <input type="radio" name="slider" id="radio4">
+        <div class="slides">
+          <div class="slide slide-active"><img src="./img/1.jpg" alt=""></div>
+          <div class="slide"><img src="./img/2.jpg" alt=""></div>
+          <div class="slide"><img src="./img/3.jpg" alt=""></div>
+          <div class="slide"><img src="./img/4.jpg" alt=""></div>
+        </div>
+      </div>
+      <div class="text">
+        <p class="memetext">meme 1</p>
+        <p class="memetext">meme 2</p>
+        <p class="memetext">meme 3</p>
+        <p class="memetext">meme 4</p>
+      </div>
+      <div class="slider-navigation">
+        <label for="radio1" class="slider-button"></label>
+        <label for="radio2" class="slider-button"></label>
+        <label for="radio3" class="slider-button"></label>
+        <label for="radio4" class="slider-button"></label>
       </div>
     </div>
-    <div class="slider-navigation">
-      <input type="radio" name="slider" id="radio1" checked>
-      <input type="radio" name="slider" id="radio2">
-      <input type="radio" name="slider" id="radio3">
-      <input type="radio" name="slider" id="radio4">
-      <label for="radio1" class="slider-button"></label>
-      <label for="radio2" class="slider-button"></label>
-      <label for="radio3" class="slider-button"></label>
-      <label for="radio4" class="slider-button"></label>
-    </div>
   </div>
-</div>
 </body>
+
 </html>
