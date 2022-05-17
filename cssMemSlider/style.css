@@ -133,59 +133,62 @@ body {
 }
 
 input[name="slider"] {
-  display: none;
+  width: 0;
+  height: 0;
+  order: 10;
+  visibility: hidden;
 }
 
 /* IMG animation */
 
-#radio1:checked~.slides-wrapper>.slides>.slide-active {
+#radio1:checked~.slider>.slides-wrapper>.slides>.slide-active {
   margin-left: 0;
 }
 
-#radio2:checked~.slides-wrapper>.slides>.slide-active {
+#radio2:checked~.slider>.slides-wrapper>.slides>.slide-active {
   margin-left: -25%;
 }
 
-#radio3:checked~.slides-wrapper>.slides>.slide-active {
+#radio3:checked~.slider>.slides-wrapper>.slides>.slide-active {
   margin-left: -50%;
 }
 
-#radio4:checked~.slides-wrapper>.slides>.slide-active {
+#radio4:checked~.slider>.slides-wrapper>.slides>.slide-active {
   margin-left: -75%;
 }
 
 /*  TEXT animation */
 
-#radio1:checked~.text-wrapper>.text>.text-active {
+#radio1:checked~.slider>.text-wrapper>.text>.text-active {
   margin-left: 0;
 }
 
-#radio2:checked~.text-wrapper>.text>.text-active {
+#radio2:checked~.slider>.text-wrapper>.text>.text-active {
   margin-left: -25%;
 }
 
-#radio3:checked~.text-wrapper>.text>.text-active {
+#radio3:checked~.slider>.text-wrapper>.text>.text-active {
   margin-left: -50%;
 }
 
-#radio4:checked~.text-wrapper>.text>.text-active {
+#radio4:checked~.slider>.text-wrapper>.text>.text-active {
   margin-left: -75%;
 }
 
 /*  BTN animation */
 
-#radio1:checked~.slider-navigation>.slider-button:nth-child(1) {
+#radio1:checked~.slider>.slider-navigation>.slider-button:nth-child(1) {
   background-color: transparent;
 }
 
-#radio2:checked~.slider-navigation>.slider-button:nth-child(2) {
+#radio2:checked~.slider>.slider-navigation>.slider-button:nth-child(2) {
   background-color: transparent;
 }
 
-#radio3:checked~.slider-navigation>.slider-button:nth-child(3) {
+#radio3:checked~.slider>.slider-navigation>.slider-button:nth-child(3) {
   background-color: transparent;
 }
 
-#radio4:checked~.slider-navigation>.slider-button:nth-child(4) {
+#radio4:checked~.slider>.slider-navigation>.slider-button:nth-child(4) {
   background-color: transparent;
 }
