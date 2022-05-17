@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Mem Slider</title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <input type="radio" name="slider" id="radio1" checked>
+    <input type="radio" name="slider" id="radio2">
+    <input type="radio" name="slider" id="radio3">
+    <input type="radio" name="slider" id="radio4">
+    <div class="slider">
+      <div class="slides-wrapper">
+        <div class="slides">
+          <div class="slide slide-active"><img src="./img/1.jpg" alt=""></div>
+          <div class="slide"><img src="./img/2.jpg" alt=""></div>
+          <div class="slide"><img src="./img/3.jpg" alt=""></div>
+          <div class="slide"><img src="./img/4.jpg" alt=""></div>
+        </div>
+      </div>
+      <div class="text-wrapper">
+        <div class="text">
+                <p class="memetext text-active">H. P. Lovecraft and his beast</p>
+                <p class="memetext">TES: Morrowind moment</p>
+                <p class="memetext">Courier vs the world (1986)</p>
+                <p class="memetext">Robert Pattinson in Silent Hill</p>
+              </div> 
+      </div>
+      <div class="slider-navigation">
+        <label for="radio1" class="slider-button">
+          <div class="btn"></div>
+        </label>
+        <label for="radio2" class="slider-button">
+          <div class="btn"></div>
+        </label>
+        <label for="radio3" class="slider-button">
+          <div class="btn"></div>
+        </label>
+        <label for="radio4" class="slider-button">
+          <div class="btn"></div>
+        </label>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
