@@ -49,7 +49,7 @@ body {
 }
 
 .text-wrapper {
-  width: 18rem;
+  width: 25rem;
   height: 6.25rem;
   overflow: hidden;
 }
@@ -119,6 +119,10 @@ body {
 
   .text {
     padding-top: 1.875rem;
+  }
+
+  .text-wrapper {
+    width: 19rem;
   }
 }
 
